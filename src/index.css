@@ -5,6 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:aquamarine;
+}
+.container{
+  margin: 0 150px;
+}
+.header {
+  background-color:aqua;
+  text-align: center;
+}
+.song-list {
+  margin:0 20px;
+}
+ul {
+  list-style-type: none;
+}
+.box {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+
+}
+.position {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.name {
+  width: 450px;
+  font-weight: bold;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.artist {
+  display: flex;
+  align-items: center;
 }
 
 code {
